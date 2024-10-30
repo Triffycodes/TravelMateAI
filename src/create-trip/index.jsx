@@ -232,7 +232,7 @@ function CreateTrip() {
                         <DialogHeader>
                             <DialogDescription>
                                 <div className="flex w-full h-10">
-                                    <img src="src/assets/logo.svg"></img>
+                                    <img src="/logo.svg"></img>
                                     <p className='p-2 pt-3 font-sans font-semibold text-black'>TravelMate<span className='text-[#f56551]'>AI</span></p>
                                 </div>
                                 <h2 className="font-bold text-lg mt-7">Sign in with Google</h2>
