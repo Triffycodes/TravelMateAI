@@ -9,6 +9,7 @@ import './index.css'
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import ViewTrip from './view-trip/[tripId]/index.jsx'
 import MyTrips from './my-trips/index.jsx'
+import { Helmet , HelmetProvider} from 'react-helmet-async';
 
 const router = createBrowserRouter(
   [{
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    
     <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_AUTH_CLIENT_ID}>
     <Header></Header>
     <Toaster />
