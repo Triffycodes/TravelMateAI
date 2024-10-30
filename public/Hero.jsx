@@ -4,7 +4,7 @@ import { RainbowButton } from '../ui/rainbow-button'
 import WordRotate from '../ui/word-rotate'
 import Footer from './Footer'
 import { ParticlesDemo } from './ParticleDemo'
-
+import landingPhoto from '/src/assets/landingphoto.png'
 
 
 function Hero() {
@@ -26,7 +26,7 @@ function Hero() {
       </div>
 
       <div className='flex flex-col items-center'>
-        <img src="/landingphoto.png" className='w-[400px] justify-center md:w-[600px] lg:w-[800px] md:mt-20 lg:mt-20' />
+        <img src={landingPhoto} className='w-[400px] justify-center md:w-[600px] lg:w-[800px] md:mt-20 lg:mt-20' />
       </div>
       <div>
         <Footer />
