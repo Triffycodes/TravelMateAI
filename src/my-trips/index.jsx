@@ -8,7 +8,7 @@ import React from 'react'
 import { useState } from "react";
 import { useEffect } from 'react'
 import { useNavigation } from 'react-router-dom';
-import UserTripsCardItem from "./components/userTripsCardItem";
+import UserTripsCardItem from "./components/UserTripsCardItem";
 
 function MyTrips() {
     const navigate = useNavigation();
