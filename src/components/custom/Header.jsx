@@ -62,7 +62,7 @@ function Header() {
     <div className='flex p-4 shadow-md justify-between items-center px-10 py-6 bg-black'>
       <a href="/">
         <div className='flex transition ease-in hover:scale-110'>
-          <img src='/src/assets/logo.svg' />
+          <img src='./src/assets/logo.svg' />
           <p className='p-2 font-sans font-semibold text-white'>TravelMate<span className='text-[#f56551]'>AI</span></p>
         </div>
       </a>
