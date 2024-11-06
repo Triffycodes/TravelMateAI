@@ -40,7 +40,7 @@ function MyTrips() {
 
   return (
     <div>
-    <div className='sm:px-10 md:px-32 lg:px-56 xl:px-72 px-5 bg-black text-white'>
+    <div className='sm:px-10 md:px-32 lg:px-56 xl:px-72 px-5 bg-black text-white min-h-screen'>
        <ParticlesDemo/>
        <Meteors />
       <h2 className="font-bold text-2xl">My Trips</h2>
@@ -56,7 +56,7 @@ function MyTrips() {
         }
         </div>
     </div>
-    <div>
+    <div className="py-4">
       <Footer />
     </div>
     </div>
